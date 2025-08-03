@@ -15,7 +15,7 @@ public class Gradecalc {
         float avg = (sum/n);
         if (avg>=89&&avg<100){
             System.out.println(avg+" "+"A+");
-        } else if (avg>=80&&avg<89) {
+        } else if (avg>=79&&avg<89) {
             System.out.println(avg+" "+"A");
         } else if (avg>=70&&avg<79) {
             System.out.println(avg+" "+"B+");
@@ -32,3 +32,4 @@ public class Gradecalc {
 
     }
 }
+
